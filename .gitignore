@@ -1,0 +1,109 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# generated files
+*~
+*.autosave
+*.a
+*.core
+*.moc
+*.o
+*.orig
+*.rej
+*.so
+*.so.*
+*.debug
+Makefile*
+
+# qtcreator generated files
+*.pro.user*
+*.creator.user*
+*.qbs.user*
+*.qmlproject.user*
+*.pyqtc.user*
+app_version.h
+*.list
+
+# Vim temporary files
+.*.swp
+
+# Python byte code
+*.pyc
+
+# translation related:
+/share/qtcreator/translations/*_tr.h
+/share/qtcreator/translations/qtcreator_untranslated.ts
+
+# Directories to ignore
+# ---------------------
+
+debug/
+release/
+/lib/
+/lib64/
+/*-debug/
+/*-release/
+/doc/html/
+/doc/html-dev/
+/doc/api/html/
+/doc/pluginhowto/html/
+/dist/gdb/python/
+/dist/gdb/qtcreator-*/
+/dist/gdb/source/
+/dist/gdb/staging/
+/dist/gdb/*.gz
+.moc/
+.obj/
+.pch/
+.rcc/
+.uic/
+ipch/
+tmp/
+rpm/
+RPMS/
+
+
+
+# ignore both a directory as well as a symlink
+/share/qtcreator/QtProject

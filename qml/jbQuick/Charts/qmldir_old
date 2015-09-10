@@ -1,0 +1,3 @@
+module jbQuick.Charts
+Chart  1.0 QChart.qml
+Charts 1.0 QChart.js
